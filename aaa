@@ -1,0 +1,147 @@
+[33mcommit b91b98842e961b7926e68b7fc1d67fcefb242fb4[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Merge: 35c8930 a97834b
+Author: anartto77 <anartto77@users.noreply.github.com>
+Date:   Sat Jul 11 13:02:53 2020 -0300
+
+    Merge branch 'titulo'
+
+[33mcommit 35c8930467757d919242eb6417116a42a32a10fc[m
+Author: anartto77 <anartto77@users.noreply.github.com>
+Date:   Sat Jul 11 13:01:52 2020 -0300
+
+    Corrigindo Título do Docker
+
+[1mdiff --git a/index.html b/index.html[m
+[1mindex f9c7404..f470b91 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -7,7 +7,7 @@[m
+ <body>[m
+     <ul>[m
+         <li>Vagrant</li>[m
+[31m-        <li>Docker</li>[m
+[32m+[m[32m        <li>Docker: Criando containers sem dor de cabeça</li>[m
+         <li>Ansible</li>[m
+         <li>Integração Contínua: Mais qualidade e menos risco no desenvolvimento</li>[m
+     </ul>[m
+
+[33mcommit a97834b416b51893356080c0091cd8e9d0e7f7fb[m[33m ([m[1;32mtitulo[m[33m)[m
+Author: anartto77 <anartto77@users.noreply.github.com>
+Date:   Thu Jul 9 22:22:15 2020 -0300
+
+    Alterando titulo da pagina
+
+[1mdiff --git a/index.html b/index.html[m
+[1mindex f9c7404..d558534 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -2,7 +2,7 @@[m
+ <html lang="en">[m
+ <head>[m
+     <meta charset="UTF-8">[m
+[31m-    <title>Cursos da Alura</title>[m
+[32m+[m[32m    <title>Cursos de DevOps da Alura</title>[m
+ </head>[m
+ <body>[m
+     <ul>[m
+
+[33mcommit 241bce004eeb62a4e7a807debe0d0aba08d72d8c[m[33m ([m[1;31morigin/master[m[33m, [m[1;31mlocal/master[m[33m)[m
+Author: André Neto <anartto777@gmail.com>
+Date:   Thu Jul 9 19:32:08 2020 -0300
+
+    Ajustando nome do Curso de Integração Contínua
+
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 16a0803..f9c7404 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -9,7 +9,7 @@[m
+         <li>Vagrant</li>[m
+         <li>Docker</li>[m
+         <li>Ansible</li>[m
+[31m-        <li>Integração Contínua</li>[m
+[32m+[m[32m        <li>Integração Contínua: Mais qualidade e menos risco no desenvolvimento</li>[m
+     </ul>[m
+ </body>[m
+ </html>[m
+\ No newline at end of file[m
+
+[33mcommit 246d72ca4adada2214e80cc4a77e589e4420e4cc[m
+Author: André Neto <anartto777@gmail.com>
+Date:   Thu Jul 9 15:35:39 2020 -0300
+
+    Adicionando ide-config ao gitignore
+
+[1mdiff --git a/.gitignore b/.gitignore[m
+[1mindex aa61ca1..8adfd5a 100644[m
+[1m--- a/.gitignore[m
+[1m+++ b/.gitignore[m
+[36m@@ -1 +1 @@[m
+[31m-ide-config[m
+\ No newline at end of file[m
+[32m+[m[32mide-config.txt[m
+
+[33mcommit 616da021d0cca17bfaf12b61228280bbf5e5615f[m
+Author: André Neto <anartto777@gmail.com>
+Date:   Thu Jul 9 15:34:38 2020 -0300
+
+    Adicionando gitignore
+
+[1mdiff --git a/.gitignore b/.gitignore[m
+[1mnew file mode 100644[m
+[1mindex 0000000..aa61ca1[m
+[1m--- /dev/null[m
+[1m+++ b/.gitignore[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mide-config[m
+\ No newline at end of file[m
+
+[33mcommit 8d4499f1c7a4e5bba312d5c4a1760dab0965fb59[m
+Author: André <anartto777@gmail.com>
+Date:   Thu Jul 9 13:45:10 2020 -0300
+
+    Adicionando Acento no curso de integração contínua
+
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 96bcd39..16a0803 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -9,7 +9,7 @@[m
+         <li>Vagrant</li>[m
+         <li>Docker</li>[m
+         <li>Ansible</li>[m
+[31m-        <li>Integração Continua</li>[m
+[32m+[m[32m        <li>Integração Contínua</li>[m
+     </ul>[m
+ </body>[m
+ </html>[m
+\ No newline at end of file[m
+
+[33mcommit f26d9dae5c80cb0cb06076d722e7b4bf2a1aca60[m
+Author: André <anartto777@gmail.com>
+Date:   Thu Jul 9 13:33:46 2020 -0300
+
+    Criando arquivo index.html com listas de cursos
+
+[1mdiff --git a/index.html b/index.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..96bcd39[m
+[1m--- /dev/null[m
+[1m+++ b/index.html[m
+[36m@@ -0,0 +1,15 @@[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html lang="en">[m
+[32m+[m[32m<head>[m
+[32m+[m[32m    <meta charset="UTF-8">[m
+[32m+[m[32m    <title>Cursos da Alura</title>[m
+[32m+[m[32m</head>[m
+[32m+[m[32m<body>[m
+[32m+[m[32m    <ul>[m
+[32m+[m[32m        <li>Vagrant</li>[m
+[32m+[m[32m        <li>Docker</li>[m
+[32m+[m[32m        <li>Ansible</li>[m
+[32m+[m[32m        <li>Integração Continua</li>[m
+[32m+[m[32m    </ul>[m
+[32m+[m[32m</body>[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
